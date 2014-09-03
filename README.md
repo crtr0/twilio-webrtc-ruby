@@ -19,25 +19,21 @@ export TWILIO_AUTH_TOKEN=YOUR_AUTH_TOKEN
 
 Deploy to the hosting provider or PaaS of choice. Remember to replicate the environment variables to your production environment.
 
-###Option 2*
+###Option #2
 
 Use a tool like [Ngrok](http://ngrok.com) to tunnel localhost.
 
 ## View the Presentation
 
-`ruby index.rb`
-
-Then, go to http://localhost:4567/index.html in your browser.
-
+Go to http://yourdomain/index.html in your browser.
 
 ## Connect it to Twilio
 
 1) Sign-up for a [free Twilio account](http://twilio.com/try-twilio)
-2) Purchase a new Twilio number
+2) Purchase a new Twilio number or use the one you are given
 3) Set your `Messaging Request URL` to `http://yourdomain/sms`.
 
 ## Send and Recieve SMS
 
 Send a text message to your new Twilio number. You should get a canned response. Have a few people send a text to that phone number as well.
-
 
