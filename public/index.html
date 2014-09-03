@@ -55,10 +55,10 @@
 
 				<section>
 					<h2>I'm <em>Carter</em></h2>
-					<p><img src="img/cate.png"/></p>
+					<p><img src="img/karaoke.png"/></p>
 					<aside class="notes">
-					* Been at Twilio for 2 1/2 years which in startup years is about 20
-					* Actually, this is a picture of my daughter from JSConf 2012
+					* Been at Twilio for 2 1/2 years 
+					* 
 					</aside>
 				</section>
 
@@ -196,7 +196,7 @@
 					<h1>Thank <em>You</em></h1>
 					<h2>Carter Rabasa</h2>
 					<h3>Developer Evangelist</h3>
-					<p>http://github.com/crabasa/twilio-webrtc</p>
+					<p>http://github.com/crabasa/twilio-webrtc-ruby</p>
 
 				</section>
 
@@ -243,22 +243,26 @@
 		</script>
 
 		<script type="text/javascript">
-		  frame=1;
-		  var sup1 = new SuperGif({ gif: document.getElementById('best_gif') } );
+		 	// some dirty code to handle the on-demand animation of a Gif.
+			frame=1;
+			var sup1 = new SuperGif({ gif: document.getElementById('best_gif') } );
 
-		  
-		  sup1.load(function(){
-		  	sup1.move_to(frame);
-		  	$('.jsgif canvas').css('width', '100%');
-		  	$('.jsgif').show();
-		  });
-		  $('.jsgif').hide();
-		  $('.jsgif').on('click', function(){
-            sup1.play();
-		  });
+
+			sup1.load(function(){
+				sup1.move_to(frame);
+				$('.jsgif canvas').css('width', '100%');
+				$('.jsgif').show();
+			});
+			$('.jsgif').hide();
+			$('.jsgif').on('click', function(){
+			sup1.play();
+			});
 		</script>
 
 		<script>
+			// Use D3 to create a circle. We will use the Web Audio API to change the size
+			// of the circle later in response to the volume.
+			// Credit to https://github.com/chiester
 			var margin = {
 				top: 40,
 				right: 40,
@@ -281,8 +285,7 @@
 				.attr("stroke-width", 20)
 				.attr("r", 10)
 				.attr("cx", width / 2)
-				.attr("cy", y)
-				//.each(pulse);
+				.attr("cy", y);
 			
 			var circle = svg.select("circle");
 		</script>
