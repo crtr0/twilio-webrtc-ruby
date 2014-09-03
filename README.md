@@ -29,9 +29,9 @@ Go to http://yourdomain/index.html in your browser.
 
 ## Connect it to Twilio
 
-1) Sign-up for a [free Twilio account](http://twilio.com/try-twilio)
-2) Purchase a new Twilio number or use the one you are given
-3) Set your `Messaging Request URL` to `http://yourdomain/sms`.
+1. Sign-up for a [free Twilio account](http://twilio.com/try-twilio)
+2. Purchase a new Twilio number or use the one you are given
+3. Set your `Messaging Request URL` to `http://yourdomain/sms`.
 
 ## Send and Recieve SMS
 
