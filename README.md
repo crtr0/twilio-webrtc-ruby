@@ -31,9 +31,16 @@ Go to http://yourdomain/index.html in your browser.
 
 1) Sign-up for a [free Twilio account](http://twilio.com/try-twilio)
 2) Purchase a new Twilio number or use the one you are given
-3) Set your `Messaging Request URL` to `http://yourdomain/sms`.
+3) Set your `Messaging Request URL` to `http://yourdomain/sms` and `HTTP GET`.
 
 ## Send and Recieve SMS
 
 Send a text message to your new Twilio number. You should get a canned response. Have a few people send a text to that phone number as well.
+
+## Meta 
+
+* No warranty expressed or implied.  Software is as is.
+* [MIT License](http://www.opensource.org/licenses/mit-license.html)
+* Made with ♥ by [Twilio](http://www.twilio.com) Seattle
+
 
